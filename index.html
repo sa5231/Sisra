@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<<!doctype html>
+<html lang="ar" dir="rtl">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>سيسرا | Sisra</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <div class="logo-mark">
+          <img src="https://res.cloudinary.com/dhxohxpk3/image/upload/v1767786198/2E1BABAB-7DE9-4D77-B97F-3A8FA995A913_ntlrki.png" alt="سيسرا">
+        </div>
+        <div>
+          <h1 class="brand-name">سيسرا</h1>
+          <p class="brand-tagline">نهتم لصحتك</p>
+        </div>
+      </div>
+      
+      <nav class="nav">
+        <a href="#products">المنتج</a>
+        <a href="#about">من نحن</a>
+        <a href="#contact">تواصل</a>
+      </nav>
+      
+      <button class="btn btn-primary" onclick="openWhatsApp()">اطلب الآن</button>
+    </div>
+  </header>
+  
+  <main>
+    
+    <section class="hero">
+      <div class="container hero-inner">
+        
+        <div class="hero-copy">
+          <p class="pill">طبيعي 100٪ • بدون سكر مضاف</p>
+          <h2>عصير كركديه من سيسرا</h2>
+          <p class="muted">نكهة أصيلة ومنعشة. بداية سيسرا… والقادم أجمل.</p>
+          
+          <div class="hero-actions">
+            <button class="btn btn-primary" onclick="openWhatsApp()">اطلب عبر واتساب</button>
+            <a class="btn btn-ghost" href="#products">شوف التفاصيل</a>
+          </div>
+        </div>
+        
+        <div class="product-card">
+          <img class="product-img" src="https://res.cloudinary.com/dhxohxpk3/image/upload/v1767784263/A6D2B7AD-4997-4AA1-90AE-F007C10F1D98_rxf5zb.png" alt="عصير كركديه سيسرا">
+        </div>
+        
+      </div>
+    </section>
+    
+    <section class="section" id="contact">
+      <div class="container contact">
+        <div>
+          <h3>تواصل معنا</h3>
+          <p class="phone">+966 55 404 6604</p>
+        </div>
+        <button class="btn btn-primary" onclick="openWhatsApp()">افتح واتساب</button>
+      </div>
+    </section>
+    
+  </main>
+  
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <span>© <span id="year"></span> سيسرا</span>
+    </div>
+  </footer>
+  
+  <script src="main.js"></script>
+</body>
+
+</html>
